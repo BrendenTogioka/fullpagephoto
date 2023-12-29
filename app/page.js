@@ -23,6 +23,7 @@ export default function Page() {
             src={heroImage}
             alt="Hero image"
             className="absolute z-0 top-0 left-0 h-full w-full object-cover"
+            priority={true}
           />
         </div>
         {trips.map((trip) => (

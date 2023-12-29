@@ -22,6 +22,7 @@ export default function Page() {
             src={trip.img}
             alt={trip.title}
             className="h-full absolute top-0 left-0 z-0 object-cover"
+            priority={true}
           />
         </div>
         <Link href={`/#${trip.slug}`}>Back</Link>
